@@ -78,6 +78,7 @@ target_link_libraries(
         turbojpeg
         jpeg
 
+        #JNI层,添加bitmap支持
         jnigraphics
         ${log-lib}
 )
